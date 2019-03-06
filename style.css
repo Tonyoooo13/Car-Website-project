@@ -2,6 +2,7 @@
 .navbar{
 	padding: .8rem;
 	font-size: 100px;
+	background-color: red;
 }
 
 .navbar-nav li{
@@ -23,7 +24,7 @@ font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
-  opacity: 0.70;
+  
 }
 
 .section {
@@ -49,15 +50,41 @@ font-family: 'Poppins', sans-serif;
   z-index: -1;
 }
 
+.parallax li {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	position: relative;
+	float: right;
+	font-size: 20px;
+}
+
+.parallax img{
+object-fit: cover;
+opacity: 0.50;
+}
+
 .static {
   background-color:#282e34;
   color:#ddd;
 }
 
+.static h1 {
+	font-size: 25px;
+	position: absolute;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+
 .bg1::after {
-  background-image: url(Ferrari.jpg);
 }
 
 .bg2::after {
-  background-image: url(shelby.jpg);
+  background-image: url(Mustang.jpeg);
+  opacity: 0.50;
+  object-fit: cover;
+  height: 100%;
+
+}
+
+.bg2 li {
+
 }
